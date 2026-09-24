@@ -13,4 +13,16 @@ app.include_router(personajes.router)
 def ruta_raiz():
         return {
             "mensaje": "OK"
-        }
+        },
+    personajes = [
+    {
+        "nombre": "Personaje Existente",
+        "clase": "Guerrero",
+        "nivel": 5
+    },
+    {
+        "nombre": "Lorena",
+        "clase": "Maga",
+        "nivel": 10
+    }
+]
